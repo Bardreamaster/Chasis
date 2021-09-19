@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/STM32F4xx_StdPeriph_Driver/inc/**",
+                "${workspaceFolder}/src/**",
+                "${workspaceFolder}/CORE/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "STM32F40_41xxx",
+                "USE_STDPERIPH_DRIVER",
+                "__packed=",
+                "__weak="
+            ],
+            "compilerPath": "F:/Tools/Keil/ARM/ARMCC/bin/armcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
